@@ -1,4 +1,4 @@
-import profilePic from "src/assets/oliviatirsoProfile.webp" 
+import profilePic from "../assets/oliviatirsoProfile.webp" 
 import { HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion"
 
