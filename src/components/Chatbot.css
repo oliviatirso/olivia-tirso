@@ -1,0 +1,100 @@
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #1e1e1e; /* Dark background */
+  border: 1px solid #444; /* Subtle border for dark theme */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+  transition: height 0.3s ease;
+}
+
+.chatbot-header {
+  background-color: #333; /* Dark header background */
+  color: #fff; /* White text for contrast */
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding: 10px;
+}
+
+.messages {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #2e2e2e; /* Slightly lighter dark background */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.message.user {
+  background-color: #007bff; /* Highlight for user message */
+  color: white;
+  margin-left: auto;
+  text-align: right;
+}
+
+.message.bot {
+  background-color: #444; /* Bot message background */
+  color: #ddd; /* Light text for contrast */
+  text-align: left;
+}
+
+.typing {
+  font-style: italic;
+  color: #888; /* Subtle typing indicator */
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #444; /* Subtle separator for input */
+}
+
+.input-container input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #333; /* Input background */
+  color: #fff; /* Input text color */
+}
+
+.input-container input::placeholder {
+  color: #aaa; /* Placeholder text color */
+}
+
+.input-container button {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #313431; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #3d658f; /* Darker shade for hover effect */
+}
+
+.collapsed {
+  height: 50px; /* Only show the header when collapsed */
+}
