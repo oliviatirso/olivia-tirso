@@ -1,4 +1,4 @@
-import aboutImg from "../assets/oliviatirsoProfile.webp"; // Correct import
+import aboutImg from "../assets/livshoot3.webp"; // Correct import
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 

@@ -56,6 +56,9 @@ const Technologies = () => {
                 <motion.div initial="initial" animate="animate" variants={iconVariants(4)} className="p-4">
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                 </motion.div>
+                <motion.div initial="initial" animate="animate" variants={iconVariants(3.5)} className="p-4">
+                    <SiMysql className="text-7xl text-blue-500" />
+                </motion.div>
             </motion.div>
         </div>
     );

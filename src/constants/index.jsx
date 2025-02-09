@@ -3,17 +3,29 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated Computer Science student with a passion for data 
+analysis, natural language processing, and software development.
+ With experience in Python, Java, HTML, MYSQL and various research projects involving text summarization, sentiment analysis, 
+ and data visualization, I thrive on solving complex problems with innovative solutions. 
+ My goal is to leverage my technical skills and research background to develop impactful applications 
+ that enhance information processing and user experience.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and innovated Computer Science Information Systems student 
+ with a strong passiong for data analysis, software development, and natural language processing.  
+ With hands-on experience in Python, Java, and data visualization, I have worked on projects involoving text processing, sentiment analysis, 
+ and news aggregation to tackle real-world challenges in data-driven applications. My research has been showcased at academic conferences, 
+ highlighting my ability to analyze large datasets and apply NLP techniques to optimize information processing. 
+ Beyond, academics, I actively engage in STEM reserach initiatives and have earned scholarships and stipends for my contributions. 
+ I thrive in collaborative environments, enjoy solving complex problems, and continuously seek opportunities to learn and grow in the field of software
+ engineering and AI-driven solutions.  `;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Sept 2024 - Present",
+    role: "Student Assistant",
+    company: "Kean University",
+    description: `Managing data integration and content updates for the school website at CURF`,
+    technologies: ["Python"],
   },
   {
     year: "2022 - 2023",
@@ -40,24 +52,24 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Simplifying Hotel Reviews",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Explores techniques within the context of hotel reviews, offering a blueprint for similar analysis in other industries.",
+    technologies: ["Python"],
   },
   {
-    title: "Task Management App",
+    title: "News Aggregation through Text Summarization",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed and evaluated automated text summarization methods to address the issue of information overload caused by increasing volume of daily news articles. Enhanced productivity and knowledge management through the creation of a system that optimizes information processingand aggregation.",
+    technologies: ["Python"], 
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A personal portfolio website showcasing projects, skills, and contact information. Contributes to the broad field of sentiment analysis and topic modeling",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
@@ -70,7 +82,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Elizabeth, NJ ",
+  phoneNo: "908-967-8878 ",
+  email: "tirsoo@kean.edu",
 };
