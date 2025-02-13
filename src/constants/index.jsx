@@ -1,5 +1,5 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
+import project1 from "../assets/Hotel Analysis.jpeg";
+import project2 from "../assets/TextSummarization.jpeg";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
@@ -28,17 +28,17 @@ export const EXPERIENCES = [
     technologies: ["Python"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "May 2023 - Present",
+    role: "Undergraduate Research Fellow",
+    company: "NSF Build and Broaden Program",
+    description: `Gather and Visualize data using STATA and Python for Economic Conditions and the Gig Economy to measure the Impact and Implications for Social Welfare Programs`,
+    technologies: ["STATA", "Python"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    year: "May 2023 - August 2024",
+    role: "Student Scholar",
+    company: "NSF Improving Undergraduate STEM Education",
+    description: `Utilizing natural languge processing techniqures for text summarization and sentiment analysis in the context of hotel reviews. It offers an opportunity to investigate the practical applications of these methods.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
