@@ -1,7 +1,11 @@
 import logo from "../assets/Oliviatirso.webp";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa"; 
 
-const Navbar = () => {
+import React, { useState } from "react";
+import Chatbot from "../components/Chatbot";
+
+const Navbar = () => { 
+    const [showChat, setShowChat] = useState(false);
     return (
         <nav className="mb-20 flex items-center justify-between py-6">
             <div className="flex flex-shrink-0 items-center">
@@ -34,6 +38,16 @@ const Navbar = () => {
                 </a>
                 
             </div>
+            {/* Chatbot Toggle Button */}
+            <button
+                    onClick={() => setShowChat(!showChat)}
+                    className="ml-4 px-4 py-2 border rounded-md">
+                    {showChat ? "Close Chat" : "Chat"}
+                </button>
+            
+
+            {/* Chatbot Component - Shows when 'showChat' is true */}
+            {showChat && <Chatbot />}
         </nav>
     );
 };

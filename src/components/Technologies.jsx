@@ -1,13 +1,10 @@
 import { RiReactjsLine } from "react-icons/ri"; // React icon
 import { TbBrandNextjs } from "react-icons/tb"; // Next.js icon
-import { SiMongodb } from "react-icons/si"; // MongoDB icon
-import { DiRedis } from "react-icons/di"; // Redis icon
 import { FaNodeJs } from "react-icons/fa"; // Node.js icon
 import { SiPython } from "react-icons/si"; // Python icon
 import { SiMysql } from "react-icons/si"; // MySQL icon
-import { motion } from "framer-motion"; // Animation 
-import { BiLogoPostgresql } from "react-icons/bi";
-
+import { FaJava } from "react-icons/fa"; // Java icon
+import { motion } from "framer-motion"; // Animation
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -44,20 +41,18 @@ const Technologies = () => {
                 <motion.div initial="initial" animate="animate" variants={iconVariants(2.5)} className="p-4">
                     <TbBrandNextjs className="text-7xl" />
                 </motion.div>
-                <motion.div initial="initial" animate="animate" variants={iconVariants(5)} className="p-4">
-                    <SiMongodb className="text-7xl text-cyan-500" />
-                </motion.div>
-                <motion.div initial="initial" animate="animate" variants={iconVariants(2)} className="p-4">
-                    <DiRedis className="text-7xl text-red-700" />
-                </motion.div>
                 <motion.div initial="initial" animate="animate" variants={iconVariants(6)} className="p-4">
                     <FaNodeJs className="text-7xl text-green-500" />
                 </motion.div>
-                <motion.div initial="initial" animate="animate" variants={iconVariants(4)} className="p-4">
-                    <BiLogoPostgresql className="text-7xl text-sky-700" />
-                </motion.div>
+                
                 <motion.div initial="initial" animate="animate" variants={iconVariants(3.5)} className="p-4">
                     <SiMysql className="text-7xl text-blue-500" />
+                </motion.div>
+                <motion.div initial="initial" animate="animate" variants={iconVariants(4.5)} className="p-4">
+                    <SiPython className="text-7xl text-yellow-500" />
+                </motion.div>
+                <motion.div initial="initial" animate="animate" variants={iconVariants(5)} className="p-4">
+                    <FaJava className="text-7xl text-red-600" />
                 </motion.div>
             </motion.div>
         </div>
