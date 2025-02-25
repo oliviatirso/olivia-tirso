@@ -41,13 +41,7 @@ export const EXPERIENCES = [
     description: `Utilizing natural languge processing techniqures for text summarization and sentiment analysis in the context of hotel reviews. It offers an opportunity to investigate the practical applications of these methods.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  
 ];
 
 export const PROJECTS = [
@@ -70,14 +64,14 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information. Contributes to the broad field of sentiment analysis and topic modeling",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React"],
   },
   {
-    title: "Blogging Platform",
+    title: "Cat Breed Detection App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a user-friendly app for cat breed identification through photo uploads. Utilize AI and machine learning to identify cat breeds accurately. Provide users with detailed information about the identified breed, including its traits, care needs, and general behavior. Educate users on proper cat care and breed-specific needs.",
+    technologies: ["Swift", "Python"],
   },
 ];
 
