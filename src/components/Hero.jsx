@@ -1,6 +1,7 @@
 import profilePic from "../assets/livphotoshoot.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
+import resumeFile from "../assets/LivTirsoResume-1 copy.pdf";
 
 const containerVariants = {
     hidden: { opacity: 0, x: -100 },
@@ -64,7 +65,7 @@ const Hero = () => {
                         </motion.p>
                         <motion.a
                             variants={childVariants}
-                            href="/LivTirsoResume.pdf"
+                            href="/LivTirsoResume-1 copy.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             download
