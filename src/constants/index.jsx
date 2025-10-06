@@ -1,7 +1,7 @@
 import project1 from "../assets/Hotel Analysis.jpeg";
 import project2 from "../assets/TextSummarization.jpeg";
 import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project4 from "../assets/projects/project-4.webp"; 
 
 export const HERO_CONTENT = `I am a dedicated Computer Science student with a passion for data 
 analysis, natural language processing, and software development.
