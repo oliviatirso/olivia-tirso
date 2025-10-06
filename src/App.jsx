@@ -7,7 +7,6 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Chatbot from './components/Chatbot'; 
-import { Analytics } from "@vercel/analytics/next"
 
 const App = () => {
   return (
