@@ -1,6 +1,6 @@
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
-import resumeFile from "../assets/LivTirsoResume.pdf";
+import resumeFile from "../assets/LivTirsoResume-1 copy.pdf";
 
 const Contact = () => {
     return (
