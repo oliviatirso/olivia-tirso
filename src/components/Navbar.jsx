@@ -29,7 +29,7 @@ const Navbar = () => {
                    className="transform transition-transform duration-300 hover:scale-125 hover:text-gray-800">
                     <FaGithub />
                 </a>
-                <a href="https://www.instagram.com/in/livtirso/"
+                <a href="https://www.instagram.com/livtirso/"
                    target="_blank"
                    rel="noopener noreferrer"
                    aria-label="Instagram"

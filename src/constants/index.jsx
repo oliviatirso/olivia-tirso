@@ -3,21 +3,21 @@ import project2 from "../assets/TextSummarization.jpeg";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp"; 
 
-export const HERO_CONTENT = `I am a dedicated Computer Science student with a passion for data 
-analysis, natural language processing, and software development.
- With experience in Python, Java, HTML, MYSQL and various research projects involving text summarization, sentiment analysis, 
- and data visualization, I thrive on solving complex problems with innovative solutions. 
- My goal is to leverage my technical skills and research background to develop impactful applications 
- that enhance information processing and user experience.`;
+export const HERO_CONTENT = `I’m a Computer Science student who loves turning ideas into real, useful tools. 
+I’ve worked on projects involving data, research, and app development, and I enjoy finding creative ways to make 
+technology easier and more meaningful for people to use. My goal is to keep building projects that make an impact 
+and improve the way we connect with information.`;
 
-export const ABOUT_TEXT = `I am a dedicated and innovated Computer Science Information Systems student 
- with a strong passiong for data analysis, software development, and natural language processing.  
- With hands-on experience in Python, Java, and data visualization, I have worked on projects involoving text processing, sentiment analysis, 
- and news aggregation to tackle real-world challenges in data-driven applications. My research has been showcased at academic conferences, 
- highlighting my ability to analyze large datasets and apply NLP techniques to optimize information processing. 
- Beyond, academics, I actively engage in STEM reserach initiatives and have earned scholarships and stipends for my contributions. 
- I thrive in collaborative environments, enjoy solving complex problems, and continuously seek opportunities to learn and grow in the field of software
- engineering and AI-driven solutions.  `;
+export const ABOUT_TEXT = `I’m a software developer and researcher passionate about creating websites and apps that make 
+technology more accessible and engaging. I love bringing ideas to life through design, data, and innovation—whether it’s 
+building user-friendly interfaces or exploring how AI and data analysis can solve real-world problems.
+
+My projects have explored text processing, sentiment analysis, and news aggregation, applying data-driven approaches to 
+turn complex information into meaningful insights. I’ve presented my research at academic conferences and earned scholarships 
+for my contributions to STEM initiatives.
+
+I thrive in collaborative environments, enjoy tackling challenges creatively, and continuously seek opportunities to 
+grow as a developer focused on impactful, AI-powered solutions.  `;
 
 export const EXPERIENCES = [
   {
